@@ -21,7 +21,7 @@ sandboxes/
 skins/
 
 # Hermes built-in skills — không phải project code
-skills/
+skills/*
 !skills/harmonix/
 
 # bin/ chứa source scripts — được track
