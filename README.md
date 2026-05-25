@@ -87,13 +87,3 @@ Cron job `harmonix-vault-collector` chạy tự động mỗi 15 phút qua Herme
 Skill hướng dẫn agent cách query DB và format báo cáo vault. Agent tự động load skill này khi user hỏi về vault, TVL, APY, points.
 
 Để thêm skill mới: tạo folder `skills/harmonix/<tên-skill>/SKILL.md` theo cùng format.
-
-## Lưu ý bảo mật
-
-- **Không commit** `.env`, `auth.json`, `config.yaml`, `cron/jobs.json`, `data/`, `memories/`, `sessions/`
-- **Setup khi clone mới**:
-  ```bash
-  cp config.example.yaml config.yaml   # điền API keys
-  cp .env.example .env                  # điền secrets
-  ```
-- `config.yaml` chứa API keys và config cá nhân — mỗi người tự copy từ `config.example.yaml` và điền giá trị của mình
