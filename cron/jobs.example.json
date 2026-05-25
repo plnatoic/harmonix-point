@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": "08ee8d0fac83",
+      "name": "harmonix-vault-collector",
+      "prompt": "Thu thập data vault từ Harmonix Finance API và lưu vào SQLite.\n\nChạy lệnh:\npython3 <PROFILE_DIR>/bin/collect_points.py\n\nScript đã có sẵn --continuous mode nhưng cron job cần single run mỗi 15 phút. Data được lưu vào:\n- DB: <PROFILE_DIR>/data/harmonix_points.db\n- Raw: <PROFILE_DIR>/data/raw/\n\nSau khi chạy xong, KHÔNG gửi output đi — chỉ cần chạy thành công là được.",
+      "skills": ["vault-report"],
+      "skill": "vault-report",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 * * * *",
+        "display": "*/15 * * * *"
+      },
+      "schedule_display": "*/15 * * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "deliver": "local"
+    }
+  ]
+}

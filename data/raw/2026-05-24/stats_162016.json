@@ -1,0 +1,64 @@
+{
+  "statistics": {
+    "tvl_in_all_vaults": 5449666.571844024,
+    "total_depositors": 13363,
+    "tvl_composition": {
+      "Hyperliquid - USDC - $HYPE Delta Neutral Vault": 685184.081035,
+      "HyperEVM $KHYPE Vault": 2279298.194969577,
+      "HIP-3 haUSDC Vault": 238953.76111975513,
+      "HyperEVM $HYPE Vault": 2207889.3717476916,
+      "KelpDao - USDC - Delta Neutral Vault": 38341.162972
+    },
+    "vaults": [
+      {
+        "name": "Hyperliquid - USDC - $HYPE Delta Neutral Vault",
+        "price_per_share": 1.15555,
+        "apy_1y": 5.34093492775507,
+        "risk_factor": 0.002831584361926515,
+        "total_value_locked": 685184.081035,
+        "slug": "hype-delta-neutral-v1",
+        "id": "ba33d0f9-aa1f-4b59-af87-d0751ccb4dd3"
+      },
+      {
+        "name": "HyperEVM $KHYPE Vault",
+        "price_per_share": 1.0169243834226367,
+        "apy_1y": 3.344067688232411,
+        "risk_factor": 0.0,
+        "total_value_locked": 35227.314539803214,
+        "slug": "hyperevm-khype-v1",
+        "id": "b6982c21-76ff-4545-b49c-053b722eecd1"
+      },
+      {
+        "name": "HIP-3 haUSDC Vault",
+        "price_per_share": 1.0020725812050473,
+        "apy_1y": 8.76544360437026,
+        "risk_factor": 0.0,
+        "total_value_locked": 238953.76111975513,
+        "slug": "hip3-usdc-vault",
+        "id": "5feb56ce-14fa-4aec-94a4-a7d65bc51dd6"
+      },
+      {
+        "name": "HyperEVM $HYPE Vault",
+        "price_per_share": 1.0355091257029423,
+        "apy_1y": 2.9842042341430286,
+        "risk_factor": 7.520742206627001e-05,
+        "total_value_locked": 34648.23331838883,
+        "slug": "hyperevm-delta-neutral-hype-v3",
+        "id": "7d13eb4a-ea91-4622-9f0a-e8f8dbbc1fdc"
+      },
+      {
+        "name": "KelpDao - USDC - Delta Neutral Vault",
+        "price_per_share": 1.1479,
+        "apy_1y": 3.5319618705411227,
+        "risk_factor": 0.0005927158318305918,
+        "total_value_locked": 38341.162972,
+        "slug": "kelpdao-restaking-delta-neutral-vault",
+        "id": "65f75bd7-a2d2-4764-ae31-78e4bb132c62"
+      }
+    ]
+  },
+  "staking": {
+    "total_stake": 36440.9540209497,
+    "total_stake_usd": 2327133.7070224
+  }
+}

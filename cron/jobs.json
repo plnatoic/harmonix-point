@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": "08ee8d0fac83",
+      "name": "harmonix-vault-collector",
+      "prompt": "Thu th\u1eadp data vault t\u1eeb Harmonix Finance API v\u00e0 l\u01b0u v\u00e0o SQLite.\n\nCh\u1ea1y l\u1ec7nh:\nHOME=/Users/harmonix python3 /Users/harmonix/.hermes/profiles/harmonix-point/bin/collect_points.py\n\nScript \u0111\u00e3 c\u00f3 s\u1eb5n --continuous mode nh\u01b0ng cron job c\u1ea7n single run m\u1ed7i 15 ph\u00fat. Data \u0111\u01b0\u1ee3c l\u01b0u v\u00e0o:\n- DB: /Users/harmonix/.hermes/profiles/harmonix-point/data/harmonix_points.db\n- Raw: /Users/harmonix/.hermes/profiles/harmonix-point/data/raw/\n\n Sau khi ch\u1ea1y xong, KH\u00d4NG g\u1eedi output \u0111i \u2014 ch\u1ec9 c\u1ea7n ch\u1ea1y th\u00e0nh c\u00f4ng l\u00e0 \u0111\u01b0\u1ee3c.",
+      "skills": [
+        "vault-report"
+      ],
+      "skill": "vault-report",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 * * * *",
+        "display": "*/15 * * * *"
+      },
+      "schedule_display": "*/15 * * * *",
+      "repeat": {
+        "times": null,
+        "completed": 63
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-24T23:19:58.044174+07:00",
+      "next_run_at": "2026-05-25T15:15:00+07:00",
+      "last_run_at": "2026-05-25T15:00:22.894619+07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null
+    }
+  ],
+  "updated_at": "2026-05-25T15:00:22.895554+07:00"
+}

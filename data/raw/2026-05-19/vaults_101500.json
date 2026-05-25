@@ -1,0 +1,356 @@
+{
+  "hip3-usdc-vault": {
+    "id": "5feb56ce-14fa-4aec-94a4-a7d65bc51dd6",
+    "name": "HIP-3 haUSDC Vault",
+    "contract_address": "0x1D5D9E73f8219fB4396a9060C49c155dA0D65066",
+    "max_drawdown": null,
+    "vault_currency": "USDC",
+    "current_round": null,
+    "next_close_round_date": null,
+    "slug": "hip3-usdc-vault",
+    "category": "real_yield",
+    "network_chain": "hyperevm",
+    "maturity_date": null,
+    "underlying_asset": "USDC",
+    "pendle_market_address": null,
+    "strategy_name": "delta_neutral_strategy",
+    "points": [
+      {
+        "name": "hyena",
+        "point": 0.0,
+        "created_at": "2026-05-15T07:05:59.992137Z",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "hyperliquid-s3",
+        "point": 0.0,
+        "created_at": "2026-05-15T07:05:59.992137Z",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "kPoints",
+        "point": 0.0,
+        "created_at": "2026-05-15T07:05:59.992137Z",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "tradexyz",
+        "point": 0.0,
+        "created_at": "2026-05-15T07:05:59.992137Z",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "marketsxyz",
+        "point": 0.0,
+        "created_at": "2026-05-15T07:05:59.992137Z",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "Harmonix",
+        "point": 0.0,
+        "created_at": "2026-05-15T07:05:59.992137Z",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      }
+    ],
+    "rewards": [],
+    "base_weekly_apy": null,
+    "base_monthly_apy": null,
+    "reward_weekly_apy": null,
+    "reward_monthly_apy": null,
+    "apy": 9.47589551583925,
+    "apy_7d": 9.47589551583925,
+    "apy_15d": 9.47589551583925,
+    "apy_30d": 9.47589551583925,
+    "apy_45d": 9.47589551583925,
+    "tvl": 220042.5510194897,
+    "tvl_usd": 220042.5510194897,
+    "is_default": null,
+    "supported_networks": [
+      {
+        "chain": "hyperevm",
+        "vault_slug": "hip3-usdc-vault"
+      }
+    ],
+    "tags": [
+      "hip3",
+      "popular",
+      "hot"
+    ],
+    "pt_address": null,
+    "update_frequency": null,
+    "price_per_share": 0.0
+  },
+  "hyperevm-khype-v1": {
+    "id": "b6982c21-76ff-4545-b49c-053b722eecd1",
+    "name": "HyperEVM $KHYPE Vault",
+    "contract_address": "0x1368ee9d1212ae5b26ff166049220051a9eebc42",
+    "max_drawdown": 0.0,
+    "vault_currency": "KHYPE",
+    "current_round": null,
+    "next_close_round_date": null,
+    "slug": "hyperevm-khype-v1",
+    "category": "points",
+    "network_chain": "hyperevm",
+    "maturity_date": "",
+    "underlying_asset": "KHYPE",
+    "pendle_market_address": "",
+    "strategy_name": "delta_neutral_strategy",
+    "points": [
+      {
+        "name": "hypurrfi",
+        "point": 2664633.0,
+        "created_at": "2026-02-27T00:00:52.870526",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "hyperunit",
+        "point": 0.0,
+        "created_at": "2026-05-19T03:22:30.096576Z",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "kPoints",
+        "point": 71598.21157278323,
+        "created_at": "2026-05-09T00:00:52.631909",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "Harmonix",
+        "point": 5311183.57,
+        "created_at": "2025-12-11T16:10:37.882457",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      }
+    ],
+    "rewards": [],
+    "base_weekly_apy": 1.2230787313394664,
+    "base_monthly_apy": 1.1240676882324108,
+    "reward_weekly_apy": 0.0,
+    "reward_monthly_apy": 0.0,
+    "apy": 3.344067688232411,
+    "apy_7d": 3.4430787313394666,
+    "apy_15d": 3.4226846985138786,
+    "apy_30d": 3.344067688232411,
+    "apy_45d": 3.271054495584869,
+    "tvl": 36128.01313035035,
+    "tvl_usd": 1756698.0919605177,
+    "is_default": null,
+    "supported_networks": [
+      {
+        "chain": "hyperevm",
+        "vault_slug": "hyperevm-khype-v1"
+      }
+    ],
+    "tags": [
+      "harmonix",
+      "new",
+      "popular"
+    ],
+    "pt_address": "",
+    "update_frequency": "daily",
+    "price_per_share": 0.0
+  },
+  "hype-delta-neutral-v1": {
+    "id": "ba33d0f9-aa1f-4b59-af87-d0751ccb4dd3",
+    "name": "Hyperliquid - USDC - $HYPE Delta Neutral Vault",
+    "contract_address": "0xF12F8753C25F8005311a24bbbA1f7209249B00e3",
+    "max_drawdown": 0.0,
+    "vault_currency": "USDC",
+    "current_round": null,
+    "next_close_round_date": null,
+    "slug": "hype-delta-neutral-v1",
+    "category": "real_yield",
+    "network_chain": "arbitrum_one",
+    "maturity_date": "",
+    "underlying_asset": "USDC",
+    "pendle_market_address": "",
+    "strategy_name": "delta_neutral_strategy",
+    "points": [
+      {
+        "name": "valantis",
+        "point": 66527.0,
+        "created_at": "2026-01-01T00:00:56.394806",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "Harmonix",
+        "point": 19974131.77,
+        "created_at": "2025-12-11T16:09:53.482450",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      }
+    ],
+    "rewards": [],
+    "base_weekly_apy": 2.800204060539313,
+    "base_monthly_apy": 6.045904673024616,
+    "reward_weekly_apy": 0.0,
+    "reward_monthly_apy": 0.0,
+    "apy": 6.045904673024616,
+    "apy_7d": 2.800204060539313,
+    "apy_15d": 4.7554452030003524,
+    "apy_30d": 6.045904673024616,
+    "apy_45d": 5.335319976876263,
+    "tvl": 706525.987066,
+    "tvl_usd": 706525.987066,
+    "is_default": null,
+    "supported_networks": [
+      {
+        "chain": "arbitrum_one",
+        "vault_slug": "hype-delta-neutral-v1"
+      }
+    ],
+    "tags": [
+      "harmonix",
+      "popular",
+      "hot"
+    ],
+    "pt_address": "",
+    "update_frequency": "daily",
+    "price_per_share": 0.0
+  },
+  "hyperevm-delta-neutral-hype-v3": {
+    "id": "7d13eb4a-ea91-4622-9f0a-e8f8dbbc1fdc",
+    "name": "HyperEVM $HYPE Vault",
+    "contract_address": "0xfde5b0626fc80e36885e2fa9cd5ad9d7768d725c",
+    "max_drawdown": 0.0,
+    "vault_currency": "HYPE",
+    "current_round": null,
+    "next_close_round_date": null,
+    "slug": "hyperevm-delta-neutral-hype-v3",
+    "category": "points",
+    "network_chain": "hyperevm",
+    "maturity_date": "",
+    "underlying_asset": "HYPE",
+    "pendle_market_address": "",
+    "strategy_name": "delta_neutral_strategy",
+    "points": [
+      {
+        "name": "usefelix",
+        "point": 7411.984054095235,
+        "created_at": "2026-03-21T00:00:53.144848",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "hypurrfi",
+        "point": 13317425.0,
+        "created_at": "2026-02-13T00:00:54.238882",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "ventuals",
+        "point": 8646.394032265374,
+        "created_at": "2026-03-21T00:00:53.144848",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "kPoints",
+        "point": 27690.570492803632,
+        "created_at": "2026-02-06T00:00:57.358580",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      },
+      {
+        "name": "Harmonix",
+        "point": 12030370.12,
+        "created_at": "2025-12-11T16:10:37.882457",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      }
+    ],
+    "rewards": [],
+    "base_weekly_apy": 3.11484281073644,
+    "base_monthly_apy": 2.9842042341430286,
+    "reward_weekly_apy": 0.0,
+    "reward_monthly_apy": 0.0,
+    "apy": 2.9842042341430286,
+    "apy_7d": 3.11484281073644,
+    "apy_15d": 2.8796687062774717,
+    "apy_30d": 2.9842042341430286,
+    "apy_45d": 2.888173661377147,
+    "tvl": 35943.54642078635,
+    "tvl_usd": 1720599.595389832,
+    "is_default": null,
+    "supported_networks": [
+      {
+        "chain": "hyperevm",
+        "vault_slug": "hyperevm-delta-neutral-hype-v3"
+      }
+    ],
+    "tags": [
+      "harmonix",
+      "popular",
+      "hot"
+    ],
+    "pt_address": "",
+    "update_frequency": "daily",
+    "price_per_share": 0.0
+  },
+  "kelpdao-restaking-delta-neutral-vault": {
+    "id": "65f75bd7-a2d2-4764-ae31-78e4bb132c62",
+    "name": "KelpDao - USDC - Delta Neutral Vault",
+    "contract_address": "0x4a10C31b642866d3A3Df2268cEcD2c5B14600523",
+    "max_drawdown": null,
+    "vault_currency": "USDC",
+    "current_round": null,
+    "next_close_round_date": null,
+    "slug": "kelpdao-restaking-delta-neutral-vault",
+    "category": "points",
+    "network_chain": "arbitrum_one",
+    "maturity_date": null,
+    "underlying_asset": "USDC",
+    "pendle_market_address": null,
+    "strategy_name": "delta_neutral_strategy",
+    "points": [
+      {
+        "name": "Harmonix",
+        "point": 9550134.14,
+        "created_at": "2025-12-11T16:10:37.882457",
+        "total_points_all_users": 0.0,
+        "last_updated_at": null
+      }
+    ],
+    "rewards": [],
+    "base_weekly_apy": 0.46930757298986325,
+    "base_monthly_apy": 3.5430123060686602,
+    "reward_weekly_apy": 0.0,
+    "reward_monthly_apy": 0.0,
+    "apy": 3.5430123060686602,
+    "apy_7d": 0.46930757298986325,
+    "apy_15d": 0.2485064094583711,
+    "apy_30d": 3.5430123060686602,
+    "apy_45d": 3.223361892262,
+    "tvl": 38395.962667,
+    "tvl_usd": 38395.962667,
+    "is_default": null,
+    "supported_networks": [
+      {
+        "chain": "ethereum",
+        "vault_slug": "ethereum-kelpdao-gain-restaking-delta-neutral-vault"
+      },
+      {
+        "chain": "arbitrum_one",
+        "vault_slug": "kelpdao-restaking-delta-neutral-vault"
+      }
+    ],
+    "tags": [
+      "partner",
+      "hot"
+    ],
+    "pt_address": null,
+    "update_frequency": "daily",
+    "price_per_share": 0.0
+  }
+}

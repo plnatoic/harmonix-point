@@ -1,0 +1,19 @@
+name: harmonix-point
+version: 1.0.0
+description: "Harmonix DeFi vault monitoring agent — Discord/Telegram integration, vault reporting, Harmonix Points tracking"
+hermes_requires: ">=0.12.0"
+author: "harmonix"
+license: "MIT"
+
+env_requires:
+  - name: OPENAI_API_KEY
+    description: "OpenAI API key (for model access)"
+    required: true
+  - name: TELEGRAM_BOT_TOKEN
+    description: "Telegram bot token for messaging"
+    required: false
+  - name: DISCORD_BOT_TOKEN
+    description: "Discord bot token for messaging"
+    required: false
+
+

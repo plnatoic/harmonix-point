@@ -1,0 +1,51 @@
+# Secrets — tuyệt đối không push
+.env
+auth.json
+auth.lock
+
+# User data — mỗi người có data riêng
+memories/
+sessions/
+home/
+workspace/
+plans/
+
+# Runtime/generated — không cần share
+logs/
+cache/
+checkpoints/
+images/
+platforms/
+plugins/
+sandboxes/
+skins/
+
+# Hermes built-in skills — không phải project code
+skills/
+!skills/harmonix/
+
+# bin/ chứa source scripts — được track
+# Chỉ ignore compiled cache và binary
+bin/__pycache__/
+bin/tirith
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Temp/runtime
+*.pid
+*.lock
+*.log
+.hermes_history
+.skills_prompt_snapshot.json
+.update_check
+interrupt_debug.log
+gateway_state.json
+models_dev_cache.json
+ollama_cloud_models_cache.json
+channel_directory.json
+.restart_last_processed.json
+cron/.tick.lock
+cron/output/
